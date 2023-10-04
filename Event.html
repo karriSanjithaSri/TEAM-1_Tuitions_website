@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="theme-color" content="#000000">
+        <meta name="description" content="Web site created using create-react-app">
+        <link rel="apple-touch-icon" href="/Edumoon2.o/logo192.png">
+        <link rel="manifest" href="/Edumoon2.o/manifest.json">
+        <title>EDUMOON</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous"><title>EDUMOON</title>
+        <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylem.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="stylem.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Slicebox - 3D Image Slider with Fallback">
+        <meta name="keywords" content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic">
+        <meta name="author" content="Pedro Botelho for Codrops">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+        <script type="text/javascript" src="modernizr.custom.46884.js">
+
+        </script>
+        <style>
+            /* Custom styles for the footer */
+            footer {
+              background-color: #213555;
+              color: white;
+              padding-top: 30px;
+            }
+            .footer-heading {
+              color: #ffffff;
+              font-size: 22px;
+              font-weight: 600;
+              text-align: left;
+              padding-left: 5px;
+            }
+            .footer-link {
+              color: #fefeff;
+              text-decoration: none;
+              font-family: 'Times New Roman', Times, serif;
+            }
+            .list-unstyled{
+              text-align: left;
+              padding-top: 15px;
+              padding-left: 10px;
+            }
+            .list-unstyled li{
+              padding-bottom: 7px;
+            }
+            .footer-link:hover {
+              color: #f5f4fa;
+              text-decoration: underline;
+            }
+            .footer-text {
+              margin-bottom: 15px;
+              color: #ecebeb;
+              text-align: left;
+            }
+            .copyright {
+              background-color: #212529;
+              color: white;
+              text-align: center;
+              padding: 10px 0;
+            }
+            .copyright p{
+              color: white;
+            }
+            footer .container{
+             padding: 10px;
+            }
+          </style>
+        <style>
+            
+          .navbar1 input[type="checkbox"],
+          .navbar1 .hamburger1-lines{
+              display: none;
+          }
+          
+          .container1{
+              max-width: 1200px;
+              width: 90%;
+              margin: auto;
+          }
+          
+          .navbar1{
+              box-shadow: 0px 5px 10px 0px #aaa;
+              position: fixed;
+              width: 100%;
+              background: #fff;
+              color: #000;
+              opacity: 0.6;
+              z-index: 100;
+          }
+          
+          .navbar1-container1{
+              display: flex;
+              justify-content: space-between;
+              height: 64px;
+              align-items: center;
+          }
+          
+          .menu1-items{
+              order: 2;
+              display: flex;
+          }
+          .logo2{
+              order: 1;
+              font-size: 2.3rem;
+              margin-top: 12px;
+          }
+          .logo2 img{
+              height: 100px;
+              width:130px;
+             }
+          
+          .menu1-items li{
+              list-style: none;
+              margin-top: 20px;
+              margin-left: 1.5rem;
+              font-size: 1.3rem;
+          }
+          
+          .navbar1 a{
+              color: #444;
+              text-decoration: none;
+              font-weight: 500;
+              transition: color 0.3s ease-in-out;
+          }
+          
+          .navbar1 a:hover{
+              color: #117964;
+          }
+          
+          @media (max-width: 768px){
+              .navbar1{
+                  opacity: 0.95;
+              }
+          
+              .navbar1-container1 input[type="checkbox"],
+              .navbar1-container1 .hamburger1-lines{
+                  display: block;
+              }
+          
+              .navbar1-container1{
+                  display: block;
+                  position: relative;
+                  height: 64px;
+              }
+          
+              .navbar1-container1 input[type="checkbox"]{
+                  position: absolute;
+                  display: block;
+                  height: 32px;
+                  width: 30px;
+                  top: 20px;
+                  left: 20px;
+                  z-index: 5;
+                  opacity: 0;
+                  cursor: pointer;
+              }
+          
+              .navbar1-container1 .hamburger1-lines{
+                  display: block;
+                  height: 28px;
+                  width: 35px;
+                  position: absolute;
+                  top: 20px;
+                  left: 20px;
+                  z-index: 2;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+              }
+          
+              .navbar1-container1 .hamburger1-lines .line{
+                  display: block;
+                  height: 4px;
+                  width: 100%;
+                  border-radius: 10px;
+                  background: #333;
+              }
+              
+              .navbar1-container1 .hamburger1-lines .line1{
+                  transform-origin: 0% 0%;
+                  transition: transform 0.3s ease-in-out;
+              }
+          
+              .navbar1-container1 .hamburger1-lines .line2{
+                  transition: transform 0.2s ease-in-out;
+              }
+          
+              .navbar1-container1 .hamburger1-lines .line3{
+                  transform-origin: 0% 100%;
+                  transition: transform 0.3s ease-in-out;
+              }
+          
+              .navbar1 .menu1-items{
+                  padding-top: 100px;
+                  background: #fff;
+                  height: 100vh;
+                  max-width: 300px;
+                  transform: translate(-150%);
+                  display: flex;
+                  flex-direction: column;
+                  margin-left: -40px;
+                  padding-left: 40px;
+                  transition: transform 0.5s ease-in-out;
+                  box-shadow:  5px 0px 10px 0px #aaa;
+                  overflow: scroll;
+              }
+          
+              .navbar1 .menu1-items li{
+                  margin-bottom: 1.8rem;
+                  font-size: 1.1rem;
+                  font-weight: 500;
+              }
+          
+              .logo2{
+                  position: absolute;
+                  top: -25px;
+                  right: 15px;
+                  font-size: 2.5rem;
+              }
+          
+              .navbar1-container1 input[type="checkbox"]:checked ~ .menu1-items{
+                  transform: translateX(0);
+              }
+          
+              .navbar1-container1 input[type="checkbox"]:checked ~ .hamburger1-lines .line1{
+                  transform: rotate(45deg);
+              }
+          
+              .navbar1-container1 input[type="checkbox"]:checked ~ .hamburger1-lines .line2{
+                  transform: scaleY(0);
+              }
+          
+              .navbar1-container1 input[type="checkbox"]:checked ~ .hamburger1-lines .line3{
+                  transform: rotate(-45deg);
+              }
+          
+          }
+          
+          @media (max-width: 500px){
+              .navbar1-container1 input[type="checkbox"]:checked ~ .logo{
+                  display: none;
+              }
+          }
+    
+          .menu1-items li,
+          .navbar1 button{
+            list-style: none;
+            margin-left: 2rem;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+          }
+                .navbar1 button {
+                  padding: 8px 19px;
+                  text-decoration-color: #fff;
+                  background-color:  #cc274b;
+                  border: none;
+                  border-radius: 50px;
+                  cursor: pointer;
+                  transition: all ease-in-out 0s;
+                }
+                
+                .navbar1 button:hover a {
+                  color: #721227;
+                }
+                
+                .navbar1 button:hover {
+                  background: #fff;
+                  color: #721227;
+                }
+                
+                .navbar1 a:hover {
+                  color: #721227;
+                }
+        </style>
+        <script>
+            let items = document.querySelectorAll('.carousel .carousel-item')
+
+            items.forEach((el) => {
+                const minPerSlide = 4
+                let next = el.nextElementSibling
+                for (var i=1; i<minPerSlide; i++) {
+                    if (!next) {
+                        // wrap carousel by using first child
+                        next = items[0]
+                      }
+                    let cloneChild = next.cloneNode(true)
+                    el.appendChild(cloneChild.children[0])
+                    next = next.nextElementSibling
+                }
+            })
+            </script>
+            <style>
+              .navbar1 input[type="checkbox"],
+      .navbar1 .hamburger1-lines{
+          display: none;
+      }
+     
+      .container1{
+          max-width: 1200px;
+          width: 90%;
+          margin: auto;
+      }
+     
+      .navbar1{
+          box-shadow: 0px 5px 10px 0px #aaa;
+          position: fixed;
+          width: 100%;
+          background: #fff;
+          color: #000;
+          opacity: 0.6;
+          z-index: 100;
+      }
+     
+      .navbar1-container1{
+          display: flex;
+          justify-content: space-between;
+          height: 64px;
+          align-items: center;
+      }
+     
+      .menu1-items{
+          order: 2;
+          display: flex;
+      }
+      .logo2{
+          order: 1;
+          font-size: 2.3rem;
+          margin-top: 12px;
+      }
+      .logo2 img{
+          height: 100px;
+          width:130px;
+         }
+     
+      .menu1-items li{
+          list-style: none;
+          margin-top: 20px;
+          margin-left: 1.5rem;
+          font-size: 1.3rem;
+      }
+     
+      .navbar1 a{
+          color: #444;
+          text-decoration: none;
+          font-weight: 500;
+          transition: color 0.3s ease-in-out;
+      }
+     
+      .navbar1 a:hover{
+          color: #117964;
+      }
+     
+      @media (max-width: 768px){
+          .navbar1{
+              opacity: 0.95;
+          }
+     
+          .navbar1-container1 input[type="checkbox"],
+          .navbar1-container1 .hamburger1-lines{
+              display: block;
+          }
+     
+          .navbar1-container1{
+              display: block;
+              position: relative;
+              height: 64px;
+          }
+     
+          .navbar1-container1 input[type="checkbox"]{
+              position: absolute;
+              display: block;
+              height: 32px;
+              width: 30px;
+              top: 20px;
+              left: 20px;
+              z-index: 5;
+              opacity: 0;
+              cursor: pointer;
+          }
+     
+          .navbar1-container1 .hamburger1-lines{
+              display: block;
+              height: 28px;
+              width: 35px;
+              position: absolute;
+              top: 20px;
+              left: 20px;
+              z-index: 2;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+          }
+     
+          .navbar1-container1 .hamburger1-lines .line{
+              display: block;
+              height: 4px;
+              width: 100%;
+              border-radius: 10px;
+              background: #333;
+          }
+         
+          .navbar1-container1 .hamburger1-lines .line1{
+              transform-origin: 0% 0%;
+              transition: transform 0.3s ease-in-out;
+          }
+     
+          .navbar1-container1 .hamburger1-lines .line2{
+              transition: transform 0.2s ease-in-out;
+          }
+     
+          .navbar1-container1 .hamburger1-lines .line3{
+              transform-origin: 0% 100%;
+              transition: transform 0.3s ease-in-out;
+          }
+     
+          .navbar1 .menu1-items{
+              padding-top: 100px;
+              background: #fff;
+              height: 100vh;
+              max-width: 300px;
+              transform: translate(-150%);
+              display: flex;
+              flex-direction: column;
+              margin-left: -40px;
+              padding-left: 40px;
+              transition: transform 0.5s ease-in-out;
+              box-shadow:  5px 0px 10px 0px #aaa;
+              overflow: scroll;
+          }
+     
+          .navbar1 .menu1-items li{
+              margin-bottom: 1.8rem;
+              font-size: 1.1rem;
+              font-weight: 500;
+          }
+     
+          .logo2{
+              position: absolute;
+              top: -25px;
+              right: 15px;
+              font-size: 2.5rem;
+          }
+     
+          .navbar1-container1 input[type="checkbox"]:checked ~ .menu1-items{
+              transform: translateX(0);
+          }
+     
+          .navbar1-container1 input[type="checkbox"]:checked ~ .hamburger1-lines .line1{
+              transform: rotate(45deg);
+          }
+     
+          .navbar1-container1 input[type="checkbox"]:checked ~ .hamburger1-lines .line2{
+              transform: scaleY(0);
+          }
+     
+          .navbar1-container1 input[type="checkbox"]:checked ~ .hamburger1-lines .line3{
+              transform: rotate(-45deg);
+          }
+     
+      }
+     
+      @media (max-width: 500px){
+          .navbar1-container1 input[type="checkbox"]:checked ~ .logo{
+              display: none;
+          }
+      }
+
+
+              .navbar1 input[type="checkbox"],
+      .navbar1 .hamburger1-lines{
+          display: none;
+      }
+     
+      .container1{
+          max-width: 1200px;
+          width: 90%;
+          margin: auto;
+      }
+     
+      .navbar1{
+          box-shadow: 0px 5px 10px 0px #aaa;
+          position: fixed;
+          width: 100%;
+          background: #fff;
+          color: #000;
+          opacity: 0.85;
+          z-index: 100;
+      }
+     
+      .navbar1-container1{
+          display: flex;
+          justify-content: space-between;
+          height: 64px;
+          align-items: center;
+      }
+     
+      .menu1-items{
+          order: 2;
+          display: flex;
+      }
+      .logo2{
+          order: 1;
+          font-size: 2.3rem;
+          margin-top: 12px;
+      }
+      .logo2 img{
+          height: 100px;
+          width:130px;
+         }
+     
+      .menu1-items li{
+          list-style: none;
+          margin-top: 20px;
+          margin-left: 1.5rem;
+          font-size: 1.3rem;
+      }
+     
+      .navbar1 a{
+          color: #444;
+          text-decoration: none;
+          font-weight: 500;
+          transition: color 0.3s ease-in-out;
+      }
+     
+      .navbar1 a:hover{
+          color: #117964;
+      }
+     
+      @media (max-width: 768px){
+          .navbar1{
+              opacity: 0.95;
+          }
+     
+          .navbar1-container1 input[type="checkbox"],
+          .navbar1-container1 .hamburger1-lines{
+              display: block;
+          }
+     
+          .navbar1-container1{
+              display: block;
+              position: relative;
+              height: 64px;
+          }
+     
+          .navbar1-container1 input[type="checkbox"]{
+              position: absolute;
+              display: block;
+              height: 32px;
+              width: 30px;
+              top: 20px;
+              left: 20px;
+              z-index: 5;
+              opacity: 0;
+              cursor: pointer;
+          }
+     
+          .navbar1-container1 .hamburger1-lines{
+              display: block;
+              height: 28px;
+              width: 35px;
+              position: absolute;
+              top: 20px;
+              left: 20px;
+              z-index: 2;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+          }
+     
+          .navbar1-container1 .hamburger1-lines .line{
+              display: block;
+              height: 4px;
+              width: 100%;
+              border-radius: 10px;
+              background: #333;
+          }
+         
+          .navbar1-container1 .hamburger1-lines .line1{
+              transform-origin: 0% 0%;
+              transition: transform 0.3s ease-in-out;
+          }
+     
+          .navbar1-container1 .hamburger1-lines .line2{
+              transition: transform 0.2s ease-in-out;
+          }
+     
+          .navbar1-container1 .hamburger1-lines .line3{
+              transform-origin: 0% 100%;
+              transition: transform 0.3s ease-in-out;
+          }
+     
+          .navbar1 .menu1-items{
+              padding-top: 100px;
+              background: #fff;
+              height: 100vh;
+              max-width: 300px;
+              transform: translate(-150%);
+              display: flex;
+              flex-direction: column;
+              margin-left: -40px;
+              padding-left: 40px;
+              transition: transform 0.5s ease-in-out;
+              box-shadow:  5px 0px 10px 0px #aaa;
+              overflow: scroll;
+          }
+     
+          .navbar1 .menu1-items li{
+              margin-bottom: 1.8rem;
+              font-size: 1.1rem;
+              font-weight: 500;
+          }
+     
+          .logo2{
+              position: absolute;
+              top: -25px;
+              right: 15px;
+              font-size: 2.5rem;
+          }
+     
+          .navbar1-container1 input[type="checkbox"]:checked ~ .menu1-items{
+              transform: translateX(0);
+          }
+     
+          .navbar1-container1 input[type="checkbox"]:checked ~ .hamburger1-lines .line1{
+              transform: rotate(45deg);
+          }
+     
+          .navbar1-container1 input[type="checkbox"]:checked ~ .hamburger1-lines .line2{
+              transform: scaleY(0);
+          }
+     
+          .navbar1-container1 input[type="checkbox"]:checked ~ .hamburger1-lines .line3{
+              transform: rotate(-45deg);
+          }
+     
+      }
+     
+      @media (max-width: 500px){
+          .navbar1-container1 input[type="checkbox"]:checked ~ .logo{
+              display: none;
+          }
+      }
+
+
+           
+            .navbar1 a:hover {
+              color: #721227;
+            }
+        /*stats*/
+        .works_container {
+            padding: 30px 0;
+            text-align: center;
+            transition: 0.5s;
+            position: relative;
+        }
+
+        /* .works_flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+        } */
+
+        .works_flex-box {
+            width: 20%;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            border: 2px;
+
+        }
+
+        .works_border {
+            width: 160px;
+            height: 5px;
+            background: #286560;
+            margin: 26px auto;
+        }
+
+       
+        .works_container-in {
+            padding: 30px 0;
+            text-align: center;
+            transition: 0.5s;
+            position: relative;
+        }
+        .works_flex-box-in{
+            width: 50%;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            border: 2px;
+        }
+                .image1{
+                    height: 300px;
+                    width: 300px;
+                    padding:10px;
+                }
+                .carousel-item .col img{
+                    width: 350px;
+                    height: 600px;
+                    object-fit: fill;
+                }
+            @media (max-width: 767px) {
+                .mevents .carousel-inner .carousel-item > div {
+                    display: none;
+                }
+               .mevents .carousel-inner .carousel-item > div:first-child {
+                    display: flex;
+                }
+            }
+            
+           .mevents .carousel-inner .carousel-item.active,
+           .mevents .carousel-inner .carousel-item-next,
+           .mevents .carousel-inner .carousel-item-prev {
+                display: flex;
+            }
+            
+            /* medium and up screens */
+            @media (min-width: 768px) {
+                
+                .mevents  .carousel-inner .carousel-item-end.active,
+                .mevents .carousel-inner .carousel-item-next {
+                  transform: translateX(25%);
+                }
+                
+                .mevents .carousel-inner .carousel-item-start.active, 
+                .mevents .carousel-inner .carousel-item-prev {
+                  transform: translateX(-25%);
+                }
+            }
+            
+            .mevents .carousel-inner .carousel-item-end,
+            .mevents .carousel-inner .carousel-item-start { 
+              transform: translateX(0);
+            }
+           
+            </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <script defer="defer" src="/Edumoon2.o/static/js/main.5b14f42c.js"></script>
+        <link href="/Edumoon2.o/static/css/main.b860d491.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="root">
+        <div style="overflow-x: hidden;">
+            <div>
+              <nav class="navbar1">
+                <div class="navbar1-container1 container1">
+                    <input type="checkbox" name="" id="">
+                    <div class="hamburger1-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <ul class="menu1-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://www.edumoon.in/s/store" target="_blank">Courses</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="Event.html">Events</a></li>
+                        <li><a href="clubs.html">Clubs</a></li>
+                        <li><a href="tutions.html">Tutions</a></li>
+                        
+                        <li><button><a href="https://play.google.com/store/apps/details?id=com.edumoon.learners&hl=en&gl=US "target="_blank">Download App</a></button></li>
+                    </ul>
+                    <h1 class="logo2"><a href="index.html"><img src="./images/Artboard 1.png" alt=""></a></h1>
+                </div>
+            </nav>
+        </div>
+<div>
+    <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators" style="height: 361px; padding-top:60px;">
+    <div class="carousel-inner"><div class="carousel-item active"><a href="https://discord.gg/2kA86Q8CnU"><img class="d-block w-100 " id="img1" src="./images/edu5.jpeg"><img class="d-block w-100 " id="img2" src="./images/eventcarousels/1_1.png"></a>
+            <div class="carousel-caption"></div></div><div class="carousel-item"><a href="#/tutions"><img class="d-block w-100 " id="img1" src="./images/eventcarousels/2.png"><img class="d-block w-100 " id="img2" src="./images/eventcarousels/2_1.png"></a></div>
+            <div class="carousel-item"><a href="#/dbms"><img class="d-block w-100 " id="img1" src="images/eventcarousels/3.png">
+               
+               
+                <img class="d-block w-100 " id="img2" src="images/eventcarousels/3_1.png"></a></div></div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+            </div>
+            </div>
+            <div class="sections" >
+                <i><h2 style="text-align: center; color: black; margin: 1% 5% 10px;font-family:'Times New Roman', Times, serif;">BROWSE</h2></i>
+                <div class="sec webinar service-wrap">
+                    <i class="fas fa-laptop-code icon_sec"></i>
+                    <h4 class="sub_head">Webinars</h4>
+                    <a href=" courses.html"><button class="sub_button">Join Now</button></a>
+                </div>
+                <div class="sec workshop service-wrap">
+                    <i class="fas fa-user-cog icon_sec"></i>
+                    <h4 class="sub_head">Workshops</h4>
+                    <a href=" courses.html"><button class="sub_button">Join Now</button></a>
+                </div>
+                <div class="sec sessions service-wrap">
+                    <i class="fas fa-chalkboard-teacher icon_sec"></i><h4 class="sub_head">Live Sessions</h4>
+                    <a href=" courses.html"><button class="sub_button">Join Now</button></a>
+                </div>
+                <div class="sec webinar service-wrap">
+                  <i class="fas fa-laptop-code icon_sec"></i>
+                  <h4 class="sub_head">Clubs</h4>
+                  <a href=" courses.html"><button class="sub_button">Join Now</button></a>
+              </div>
+                <div class="mt-4 latest_events" style="padding-top: 5px;">
+                  <h2 style="text-align: center; color: black; margin: 1% 5% 10px;font-family:'Times New Roman', Times, serif;">UPCOMING EVENTS</h2>
+                  <marquee scrollamount="15" onmouseover="this.stop()" onmouseout="this.start()">
+                      <a href="https://www.youtube.com/watch?v=dG4MnKt-XIg"> 
+                      <div type="button" class="modal_section sec1 ">
+                          <i class="fas fa-play sub_icon"></i>
+                      </div>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=pmN6-rChfjk">
+                      <div type="button" class="modal_section sec2">
+                          <i class="fas fa-play sub_icon"></i>
+                      </div>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=vf0bFM2FzBQ">
+                      <div type="button" class="modal_section sec3">
+                          <i class="fas fa-play sub_icon"></i>
+                      </div>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=oYSKu6BZ9BY">
+                                                                      <div type="button" class="modal_section sec4">
+                                                                          <i class="fas fa-play sub_icon"></i>
+                                                                      </div></marquee>
+                                                                  </a>
+                                                                  <div class="modal fade" id="staticBackdrop1">
+                                                                      <a href="#/dbms">
+                                                                          <div class="modal-dialog ">
+                                                                              <a href="#/dbms">
+                                                  
+                                                                              </a><div class="modal-content sub_modal">
+                                                                                  <div class="modal-header">
+                                                                                      <a href="https://www.youtube.com/watch?v=dG4MnKt-XIg"></a>
+                                                                                      <h4 class="modal-title modal_title">Crack Job At TCS</h4>
+                                                                                      <a href="#/dbms"></a>
+                                                                                  </div>
+                                                                                  <div class="modal-body">
+                                                  
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </a>
+                                                                  </div>
+                                                                  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                                                      <div class="modal-dialog ">
+                                                                          <div class="modal-content sub_modal">
+                                                                              <div class="modal-header">
+                                                                                  <h4 class="modal-title modal_title" id="staticBackdropLabel">All About Wipro</h4>
+                                                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                              </div>
+                                                                              <div class="modal-body">
+                                                  
+                                                                              </div>
+                                                                              <div class="modal-footer">
+                                                                                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                                                      <div class="modal-dialog ">
+                                                                          <div class="modal-content sub_modal">
+                                                                              <div class="modal-header">
+                                                                                  <h4 class="modal-title modal_title" id="staticBackdropLabel">How to crack Mathworks</h4>
+                                                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                              </div>
+                                                                              <div class="modal-body">
+                                                  
+                                                                              </div>
+                                                                              <div class="modal-footer">
+                                                                                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"><div class="modal-dialog "><div class="modal-content sub_modal"><div class="modal-header"><h4 class="modal-title modal_title" id="staticBackdropLabel">Digital Marketing Webin</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"></div><div class="modal-footer"><button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                                  </div></div></div></div></div>  
+                
+                <div>
+                    <div >
+                    <div class="container" style="margin-top:20px;">
+                       
+                            <div class=" text-center">
+                                <i>  <h2 class="text-center" style="text-align: center; color: black; margin: 10px;font-size:30px;font-family:'Times New Roman', Times, serif;">STATS</h2></i><br>
+                               
+                                    </div>
+                                    
+                                    
+                                    <div class="row features_row">
+                                <div class="col-lg-4 feature_col">
+                                    <div class="feature text-center trans_400">
+                                        <div class="feature_icon">
+                                            <img src="./images/icons_1.png" alt="">
+                                        </div>
+                                        <div class="milestone_counter pt-3" data-end-value="100" data-sign-after="+">100+</div>
+                                        <h3 class="feature_title">Events</h3>
+                                    </div>
+                                </div>
+                                        <div class="col-lg-4 feature_col">
+                                            <div class="feature text-center trans_400">
+                                                <div class="feature_icon">
+                                                    <img src="./images/icons_2.png" alt="">
+                                                    </div>
+                                                    <div class="milestone_counter pt-4" data-end-value="200" data-sign-after="+">200+</div>
+                                                    <h4 class="feature_title">Guests</h4>
+                                                        </div>
+                                                        </div>
+                                                        <div class="col-lg-4 feature_col">
+                                                            <div class="feature text-center trans_400">
+                                                                <div class="feature_icon">
+                                                                    <img src="./images/icons_3.png" alt="">
+                                                                </div>
+                                                                <!-- <div class="milestone_counter pt-4" data-end-value="30" data-sign-after="+">30+</div> -->
+                                                                <h4 class="feature_title">All this for FREE</h4>
+                                                                <!--<div class="feature_text"><p>All our workshop attendees are Contented with our content.</p>-->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                        <i><h1 style="text-align: center; color: black; margin: 5% 5% 20px;font-family:'Times New Roman', Times, serif;">EVENTS YOU HAVE MISSED</h1></i>
+                        
+                                        <section class="pt-5 pb-5" class="mevents">
+                                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                              <marquee scrollamount="15" onmouseover="this.stop()" onmouseout="this.start()"> <!--<div class="carousel-inner">-->
+                                                  <!--<div class="carousel-item active">-->
+                                                    
+                                                   <a href="test.html"> <img src="./images/eventposters/30 day coding challenge.jpg"  alt="..." class="image1"></a>
+                                                
+                                                  
+                                                   <a href="test.html">   <img src="./images/eventposters/autocad.png" class="image1"></a>
+                                                  
+                                                  
+                                                    <a href="test.html"><img src="./images/eventposters/292936276_541741414298944_4453566052101973419_n.webp" class="image1"></a>
+                                                  
+                                                      <a href="test.html"> <img src="./images/eventposters/anc security.jpg"  alt="..." class="image1"></a>
+                                                    
+                                                        <a href="test.html"><img src="./images/eventposters/brainvault.jpg" class="image1" ></a>
+                                                      
+                                                          <a href="test.html">  <img src="./images/eventposters/cat study group.jpg" class="image1"></a>
+                                                     
+                                                            <a href="test.html"> <img src="./images/eventposters/CAT Webinar.jpeg"  alt="..." class="image1"></a>
+                                                   
+                                                              <a href="test.html"> <img src="./images/eventposters/Dance Workshop.jpeg"class="image1" ></a>
+                                                      
+                                                                <a href="test.html"> <img src="./images/eventposters/Data Science Using Python by Dr.Nagraju.JPG" class="image1"></a>
+                                                        <a href="test.html">
+                                                        <img src="./images/eventposters/dm-yash yarora.jpg"  alt="..." class="image1"></a>
+                                                    
+                                                        <a href="test.html">  <img src="./images/eventposters/eamcet.jpg" class="image1"></a>
+                                                      
+                                                        <a href="test.html">  <img src="./images/eventposters/elson scenes.jpg" class="image1"></a>
+                                                      
+                                                        <a href="test.html">  <img src="./images/eventposters/fintech.jpg"  alt="..." class="image1"></a>
+                                                        
+                                                    
+                                                        <a href="test.html">   <img src="./images/eventposters/GRE Webinar.JPG" class="image1"></a>
+                                                      
+                                                          <a href="test.html"><img src="./images/eventposters/hack ap hackathon.webp" class="image1"></a>
+                                                      
+                                                        <a href="test.html"> <img src="./images/eventposters/iot-ps.jpg"  alt="..." class="image1"></a>
+                                                    
+                                                        <a href="test.html"> <img src="./images/eventposters/kho kho.jpg" class="image1"></a>
+                                                      
+                                                        <a href="test.html"><img src="./images/eventposters/law.jpg" class="image1"></a>
+                                                      
+                                                        <a href="test.html">  <img src="./images/eventposters/matlabs.jpg"  alt="..." class="image1" ></a>
+                                                    
+                                                        <a href="test.html"> <img src="./images/eventposters/nep.jpg" class="image1"></a>
+                                                      
+                                                        <a href="test.html"> <img src="./images/eventposters/resume.jpg"class="image1" ></a>
+                                                      
+                                                        <a href="test.html"><img src="./images/eventposters/tcs webinar.jpg"  alt="..." class="image1"></a>
+                                                    
+                                                        <a href="test.html"><img src="./images/eventposters/volleyball.jpg" class="image1"></a>
+                                                      
+                                                        <a href="test.html"><img src="./images/eventposters/web dev internship.jpg" class="image1"></a>
+                                                      
+                                                        <a href="test.html"> <img src="./images/eventposters/Webinar-Stupid Things One Shouldnt do by Vamsi.JPG"  alt="..." class="image1"></a>
+                                                    
+                                                        <a href="test.html">  <img src="./images/eventposters/wipro.jpg" class="image1"></a>
+                                                      
+                                                          <a href="test.html"> <img src="./images/eventposters/WhatsApp Image 2020-11-22 at 10.43.36 AM.jpeg" class="image1"></a>
+                                                      
+                                                  </div>
+                                                </div></marquee>
+                                              </section>
+                                               <div class="join-community" style="box-sizing: border-box; font-family: Montserrat,sans-serif; font-style:normal;">
+                                                <h2 style="color: black;font-family: Montserrat,sans-serif ;font-size: 49px;font-weight: 700;font-style:normal; margin: 20px 20px 30px;text-align: center;text-shadow: 1px 1px 3px #e0d1bc;">
+                                                <i><h1 style="text-align: center; color: black; margin: 5% 5% 20px;font-family:'Times New Roman', Times, serif;">JOIN OUR COMMUNITY  🚀</h1></i>
+                                                <div class="social-buttons" style="display: flex;flex-wrap: wrap;justify-content: space-between;margin: 48px auto;max-width: 480px;font-family: Montserrat,sans-serif;">
+                                                  <a class="ahref" href=" https://chat.whatsapp.com/BEQtT3Ud2uM32F0ZK8WFv4" target="_blank" style="text-decoration: none;">
+                                                    <div class="Community-div-platform-wa" style="align-items: center;background-color: #0d9f16;border-radius: 5px;display: flex;height: 94px;justify-content: flex-start;margin-bottom: 20px;width: 226px;">
+                                                        <img src="./images/wup.png" class="Community-whatsapp-logo" style="height: 61px;margin-left: 10px;width: 72px;"alt="whatsapp icon">
+                                                      <div class="Community-handlesText" style="font-family: Montserrat,sans-serif;">
+                                                      <span class="Community-handle-heading"style="color: #fff;font-size: 22px;font-weight: 600;text-decoration: none;">Join Us On</span>
+                                                      <span class="Community-handle-platform"style="color: #fff;font-size: 23px;font-weight: 700;margin-top: -5px;text-decoration: none;">Whatsapp</span>
+                                                      </div>
+                                                    </div>
+                                                   </a>
+                                                <a class="ahref" target="_blank" href="https://discord.gg/2kA86Q8CnU" style="text-decoration: none ;" alt="discord icon">
+                                                    <div class="Community-div-platform-discord" style="align-items: center;
+                                                    background-color: #404eed;
+                                                    border-radius: 5px;
+                                                    display: flex;
+                                                    height: 94px;
+                                                    justify-content: flex-start;
+                                                    margin-bottom: 20px;
+                                                    width: 226px;">
+                                                        <img src="./images/diss.png" class="Community-discord-logo" style="vertical-align: middle;height: 62px;margin-left: 10px;width: 80px;" alt="discord icon">
+                                                <div class="Community-handlesText">
+                                                    <span class="Community-handle-heading" style="color: #fff;font-size: 23px;font-weight: 600;margin-top: 5px;text-decoration: none;">Join Us On</span>
+                                                    <span class="Community-handle-platform" style="color: #fff;font-size: 23px;font-weight: 700;margin-bottom: 5px;margin-top: -5px;text-decoration: none;">Discord</span></div>
+                                                </div></a>
+                                                 </div>
+                                                </div>
+                                              </div>
+                    <div>
+                        <footer>
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-md-4">
+                                    <h5 class="footer-heading">
+                                        <a href="index.html">
+                                            <img src="images/Artboard_2_1-removebg-preview.png" height="100px">
+                                        </a>
+                                    </h5>
+                                  <p class="footer-text">EduMoon is building the largest student community for engineers to develop new skills, network, find internships, grow, and earn.</p>
+                                </div>
+                                <div class="col-md-2">
+                                  
+                                  <ul class="list-unstyled">
+                                   
+                                     <li><a href="aboutus.html" class="footer-link">About Us</a></li>
+                                    <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                                    <li><a href="#" class="footer-link">Terms and Conditions</a></li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-2">
+                                  <ul class="list-unstyled">
+                                    <li><a href="index.html" class="footer-link">Home</a></li>
+                                    <li><a href="event.html" class="footer-link">Events</a></li>
+                                    <li><a href="https://www.edumoon.in/s/store" class="footer-link">Courses</a></li>
+                                    <li><a href="clubs.html" class="footer-link">Clubs</a></li>
+                                    <li><a href="tutions.html" class="footer-link">Tutions</a></li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="footer-heading">Contact Us</div>
+                                  <p class="footer-text">A-Hub, Maddilapalem, Visakhapatnam-530003</p>
+                                  <p class="footer-text">Email: theedumoon@gmail.com</p>
+                                  <p class="footer-text">Phone: +91 - 7989132224</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="copyright">
+                              <p>&copy; 2023 Moon Light Global Solutions Pvt Ltd</p>
+                            </div>
+                          </footer>  
+          </div></div></div>
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+                          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+        </body>
+        </html>
